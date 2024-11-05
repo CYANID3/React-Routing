@@ -1,0 +1,12 @@
+.link {
+    font-size: var(--xl);
+    color:  var(--frog);
+    transition: 0.3s;
+    font-weight: bold;
+    border-radius: var(--radius);
+    padding: 5px 10px;
+}
+.active {
+    color: var(--light);
+    background-color: var(--green);
+}

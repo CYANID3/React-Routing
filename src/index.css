@@ -1,0 +1,33 @@
+:root {
+  /* colors */
+  --black: #000000;
+  --dark: #032221;
+  --green: #03624c;
+  --meadow: #2cc295;
+  --frog: #17876d;
+  --light: #f1f7f6;
+
+  --font: "sans-serif";
+  
+  --radius: 10px;
+  --radius_sm: 5px;
+
+  --sm: 16px;
+  --md: 24px;
+  --xl: 32px;
+  --xxl: 48px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style-type: none;
+}

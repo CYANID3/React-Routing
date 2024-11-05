@@ -1,0 +1,19 @@
+.info {
+  margin: 0 30px;
+  border: 3px solid var(--frog);
+  min-height: 400px;
+  max-height: 450px;
+  display: flex;
+  border-radius: var(--radius);
+}
+.iLeft {
+  width: 15%;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.iRight {
+  width: 85%;
+}

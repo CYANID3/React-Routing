@@ -1,0 +1,10 @@
+.link__btn {
+    font-size: var(--sm);
+    color: var(--light);
+    background-color: var(--frog);
+    font-size: var(--sm);
+    transition: 0.3s;
+    font-weight: bold;
+    border-radius: var(--radius_sm);
+    padding: 5px 10px;
+}
