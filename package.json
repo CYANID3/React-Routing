@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://CYANID3.github.io/React-Routing",
   "scripts": {
     "start": "npm run dev",
     "dev": "vite",
