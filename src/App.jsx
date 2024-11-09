@@ -11,7 +11,7 @@ import Title from "./components/UI/Title/Title";
 function App() {
   const [text, setText] = useState([])
   useEffect(() => {
-    fetch("./database/other.json")
+    fetch("/database/other.json")
     .then(response => response.json())
     .then(data => {
       setText(data.text)
