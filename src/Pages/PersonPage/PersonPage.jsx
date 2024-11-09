@@ -7,7 +7,7 @@ function PersonPage() {
   const { personId } = useParams();
   const [person, setPerson] = useState({});
   useEffect(() => {
-    fetch("./database/info.json")
+    fetch("/database/info.json")
       .then((response) => response.json())
       .then((data) => {
         const item = data.person.find((e) => e.id == personId);
