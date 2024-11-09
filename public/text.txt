@@ -1,0 +1,9 @@
+// {"src": "/","dest": "/"},
+        // {"src": "/info","dest": "/"},
+        // {"src": "/info/(.*)","dest": "/"},
+        // {"src": "/about","dest": "/"},
+        // {"src": "/about/routes","dest": "/"},
+        // {"src": "/about/settings","dest": "/"},
+        // {"src": "/about/text","dest": "/"},
+        // {"src": "/about/qst","dest": "/"},
+        // {"src": "/about/end","dest": "/"}
