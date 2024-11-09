@@ -3,6 +3,7 @@
         {"src": "/","dest": "/"},
         {"src": "/info","dest": "/"},
         {"src": "/info/(.*)","dest": "/"},
-        {"src": "/about","dest": "/"}
+        {"src": "/about","dest": "/"},
+        {"src": "/*","dest": "/"}
     ]
 }
