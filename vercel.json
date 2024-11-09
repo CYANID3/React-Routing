@@ -1,8 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/info/:match*",
-        "destination": "/"
+        "source": "/:match*",
+        "destination": "/index.html"
       }
     ]
 }
