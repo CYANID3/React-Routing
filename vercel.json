@@ -1,5 +1,8 @@
 {
     "rewrites": [
-        {"source": "/(.*)","destination": "/"}
+        {"source": "/(.*)","destination": "/"},
+        {"source": "/info","destination": "/"},
+        {"source": "/info/:personId","destination": "/"},
+        {"source": "/about/routes","destination": "/"}
     ]
 }
