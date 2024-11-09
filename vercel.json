@@ -3,6 +3,7 @@
         {"source": "/(.*)","destination": "/"},
         {"source": "/info","destination": "/"},
         {"source": "/info/:personId","destination": "/"},
-        {"source": "/about/routes","destination": "/"}
+        {"source": "/about/routes","destination": "/"},
+        {"source": "/about","destination": "/"}
     ]
 }
