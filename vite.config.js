@@ -7,6 +7,7 @@ export default defineConfig({
   base: "./",
   server: {
     open: true,
+    historyApiFallback: true
   },
   build: {
     minify: "esbuild"
