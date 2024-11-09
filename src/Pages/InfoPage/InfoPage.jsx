@@ -7,7 +7,7 @@ import List from '../../components/List/List'
 function InfoPage() {
     const [person, setPerson] = useState([])
     useEffect(() => {
-        fetch('/database/info.json')
+        fetch('./database/info.json')
         .then(response => response.json())
         .then(data => {
             setPerson(data.person)
