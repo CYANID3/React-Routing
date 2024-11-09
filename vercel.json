@@ -4,7 +4,7 @@
         {"src": "/info","dest": "/"},
         {"src": "/info/2","dest": "/"},
         {"src": "/about","dest": "/"},
-        {"src": "/about/routes","dest": "/"},
+        {"src": "/about/routes","dest": "/about"},
         {"src": "/about/settings","dest": "/"},
         {"src": "/about/text","dest": "/"},
         {"src": "/about/qst","dest": "/"},
